@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;900&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: gray;
+}
+
+
+/****navbar******/
+
+.navbar {
+    text-decoration: none;
+    display: flex;
+    width: 100vw;
+    opacity: 90%;
+    height: 8vh;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
+
+.right-items-nav {
+    color: white;
+    cursor: pointer;
+    display: flex;
+    width: 45vw;
+    justify-content: space-around;
+}
+
+.right-items-nav button {
+    background-color: #4CA5FF;
+    border: none;
+    padding: 1%;
+    color: white;
+    border-radius: 5px;
+    margin: 1%;
+    cursor: pointer;
+    font-family: 'Raleway', sans-serif;
+}
+
+.logo {
+    align-items: center;
+    font-weight: 400;
+    font-size: 1.5rem;
+    display: flex;
+    margin-top: 1%;
+    margin-left: 2%;
+    width: 20vw;
+    height: 5vh;
+}
+
+
+/*******Animated-Text*******/
+
+#container {
+    position: absolute;
+    margin: auto;
+    width: 100vw;
+    height: 10vh;
+    top: 0;
+    bottom: 0;
+    filter: url(#threshold) blur(0.2px);
+}
+
+#text1,
+#text2 {
+    color: white;
+    position: absolute;
+    width: 100%;
+    display: inline-block;
+    font-family: "Raleway", sans-serif;
+    font-size: 4rem;
+    text-align: center;
+    user-select: none;
+    font-weight: 600;
+}
+
+#text3 {
+    color: white;
+    display: none;
+    position: absolute;
+    width: 100%;
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+    font-size: 4rem;
+    text-align: center;
+    user-select: none;
+}
+
+.animated-text {
+    display: flex;
+    width: 80vw;
+    height: 60vh;
+}
+
+
+/*********Search*******/
+
+.search-box {
+    display: flex;
+    width: 100vw;
+    position: relative;
+    justify-content: right;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.search-box button {
+    background-color: #4CA5FF;
+    width: 13%;
+    border: none;
+    color: white;
+    border-radius: 2rem;
+    font-family: 'Raleway', sans-serif;
+    cursor: pointer;
+}
+
+.flex-form {
+    background-color: #fff;
+    justify-content: space-between;
+    display: flex;
+    border-radius: 1.5em;
+    width: 50%;
+    height: 5vh;
+    margin-right: 10%;
+    padding: 5px;
+    font-family: 'Raleway';
+}
+
+.flex-form>* {
+    font-family: 'Raleway', sans-serif;
+    border: 0;
+    outline: 0;
+    background: #fff;
+    margin-left: 1px;
+    border-radius: 2rem;
+    padding: 3px;
+}
+
+#search {
+    width: 25%;
+}
+
+#date,
+#guests {
+    font-family: 'Raleway', sans-serif;
+    border-radius: 2rem;
+}
+
+.search-box-offers button {
+    background-color: #4CA5FF;
+    width: 13%;
+    border: none;
+    color: white;
+    border-radius: 2rem;
+    font-family: 'Raleway', sans-serif;
+}
+
+.flex-form-offers {
+    background-color: #fff;
+    justify-content: space-between;
+    display: flex;
+    border-radius: 1.5em;
+    width: 50%;
+    height: 5vh;
+    margin-right: 10%;
+    padding: 5px;
+    font-family: 'Raleway';
+}
+
+.flex-form-offers>* {
+    font-family: 'Raleway', sans-serif;
+    border: 0;
+    outline: 0;
+    background: #fff;
+    border-radius: 2rem;
+    padding: 3px;
+}
+
+
+/***********offers**********/
+
+h1 {
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 700;
+    font-family: 'Raleway', sans-serif;
+}

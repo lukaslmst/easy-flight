@@ -1,0 +1,321 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-repeat: repeat;
+    background-color: #cad3db;
+}
+
+
+/****navbar******/
+
+.navbar {
+    display: flex;
+    width: 100vw;
+    opacity: 90%;
+    height: 8vh;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
+
+.right-items-nav {
+    color: white;
+    display: flex;
+    width: 45vw;
+    justify-content: space-around;
+    cursor: pointer;
+}
+
+.right-items-nav button {
+    background-color: #4CA5FF;
+    border: none;
+    padding: 1%;
+    color: white;
+    border-radius: 5px;
+    margin: 1%;
+    cursor: pointer;
+}
+
+.logo {
+    align-items: center;
+    font-weight: 400;
+    font-size: 1.5rem;
+    display: flex;
+    margin-top: 1%;
+    margin-left: 2%;
+    width: 20vw;
+    height: 5vh;
+}
+
+
+/*********offer***/
+
+.offer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80vw;
+    height: 70vh;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4%;
+}
+
+.flight-from-to {
+    display: flex;
+    align-items: center;
+    width: 90%;
+    margin: 2%;
+    height: 15%;
+}
+
+.flight-info {
+    display: flex;
+    align-items: center;
+    margin: 2%;
+    width: 90%;
+    height: 25%;
+}
+
+.info-booking {
+    display: flex;
+    align-items: center;
+    margin: 2%;
+    width: 90%;
+    height: 10%;
+}
+
+.book-flight {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 2%;
+    width: 90%;
+    height: 15%;
+}
+
+.left-fight-from-to {
+    margin: 1%;
+    width: 50%;
+}
+
+.left-fight-from-to p {
+    color: black;
+    font-size: 1.2rem;
+    margin: 1%;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.left-fight-from-to #description {
+    color: gray;
+    display: block;
+    font-size: 0.6rem;
+    margin: 1%;
+}
+
+.left-fight-from-to-top {
+    display: flex;
+    align-items: center;
+    width: 90%;
+    height: 15%;
+}
+
+.right-fight-from-to {
+    justify-content: right;
+    display: flex;
+    margin: 1%;
+    width: 50%;
+}
+
+.save {
+    width: 20%;
+}
+
+.share {
+    width: 20%;
+}
+
+.flight-info {
+    border: #a0a0a0 solid 1px;
+    border-radius: 10px;
+}
+
+.book-flight {
+    border: #a0a0a0 solid 1px;
+    border-radius: 10px;
+}
+
+.flight-info .flight-info-left {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.flight-info .flight-info-right {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.flight-info .flight-info-right div {
+    width: 30%;
+    height: 100%;
+}
+
+.flight-info .flight-info-left div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    height: 100%;
+}
+
+.flight-info .flight-info-left .left-item-2 {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.flight-info .flight-info-left .left-item-2 p {
+    text-align: center;
+    height: 0%;
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.flight-info .flight-info-left .day-info {
+    text-align: center;
+    font-size: 0.9rem;
+    height: 0%;
+    color: gray;
+    font-weight: 400;
+}
+
+.flight-info .flight-info-left p {
+    text-align: center;
+    height: 0%;
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.flight-info .flight-info-left .left-item-3 {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.flight-info .flight-info-right .right-item-2 {
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+    font-size: 1rem;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.flight-info .flight-info-right .right-item-2 .time {
+    height: 50%;
+    width: 100%;
+    font-family: 'Varela Round', sans-serif;
+    color: black;
+    font-size: 1rem;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.flight-info .flight-info-right .right-item-2 .city-codes {
+    height: 50%;
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flight-info .flight-info-right .right-item-2 .city-codes .city-code-left {
+    height: 30%;
+    width: 40%;
+    background-color: #d1f1f8;
+    font-family: 'Varela Round', sans-serif;
+    color: black;
+    font-size: 0.7rem;
+    border-radius: 5px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flight-info .flight-info-right .right-item-2 .city-codes .city-code-right {
+    height: 30%;
+    width: 40%;
+    background-color: #d1f1f8;
+    font-family: 'Varela Round', sans-serif;
+    color: black;
+    font-size: 0.7rem;
+    font-weight: 700;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.book-flight .left-logo {
+    width: 50%;
+    height: 100%;
+}
+
+.book-flight .right-book {
+    display: flex;
+    width: 40%;
+    height: 100%;
+}
+
+.book-flight .right-book .book-price {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 1rem;
+    width: 50%;
+    height: 100%;
+}
+
+.book-flight .right-book .book-book-btn {
+    font-family: 'Varela Round', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+}
+
+.book-flight .right-book .book-book-btn button {
+    height: 40%;
+    width: 60%;
+    border: none;
+    background-color: #4CA5FF;
+    border-radius: 10px;
+    font-family: 'Varela Round', sans-serif;
+    color: white;
+    font-size: 1rem;
+    font-weight: 700;
+    box-shadow: gray;
+}

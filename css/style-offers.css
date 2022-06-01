@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;900&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-repeat: repeat;
+    background-color: #cad3db;
+    background-image: url('../img/cloud.jpg');
+}
+
+
+/****navbar******/
+
+.navbar {
+    display: flex;
+    width: 100vw;
+    opacity: 90%;
+    height: 8vh;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
+
+.right-items-nav {
+    color: white;
+    display: flex;
+    width: 45vw;
+    justify-content: space-around;
+    cursor: pointer;
+}
+
+.right-items-nav button {
+    background-color: #4CA5FF;
+    border: none;
+    padding: 1%;
+    color: white;
+    border-radius: 5px;
+    margin: 1%;
+    font-family: 'Raleway', sans-serif;
+    cursor: pointer;
+}
+
+.logo {
+    align-items: center;
+    font-weight: 400;
+    font-size: 1.5rem;
+    display: flex;
+    margin-top: 1%;
+    margin-left: 2%;
+    width: 20vw;
+    height: 5vh;
+}
+
+
+/*******Animated-Text*******/
+
+#container {
+    position: absolute;
+    margin: auto;
+    width: 100vw;
+    height: 10vh;
+    top: 0;
+    bottom: 0;
+    filter: url(#threshold) blur(0.2px);
+}
+
+#text1,
+#text2 {
+    color: white;
+    position: absolute;
+    width: 100%;
+    display: inline-block;
+    font-family: "Raleway", sans-serif;
+    font-size: 4rem;
+    text-align: center;
+    user-select: none;
+    font-weight: 600;
+}
+
+#text3 {
+    color: white;
+    display: none;
+    position: absolute;
+    width: 100%;
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+    font-size: 4rem;
+    text-align: center;
+    user-select: none;
+}
+
+.animated-text {
+    display: flex;
+    width: 80vw;
+    height: 60vh;
+}
+
+
+/********search-box****/
+
+#search {
+    width: 25%;
+}
+
+#date,
+#guests {
+    font-family: 'Raleway', sans-serif;
+    border-radius: 2rem;
+}
+
+.search-box-offers {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-box-offers button {
+    background-color: #4CA5FF;
+    width: 13%;
+    border: none;
+    color: white;
+    border-radius: 2rem;
+    font-family: 'Raleway', sans-serif;
+}
+
+.flex-form-offers {
+    background-color: #fff;
+    justify-content: space-between;
+    display: flex;
+    border-radius: 1.5em;
+    width: 50%;
+    height: 5vh;
+    margin-top: 3%;
+    padding: 5px;
+    font-family: 'Raleway';
+}
+
+.flex-form-offers>* {
+    font-family: 'Raleway', sans-serif;
+    border: 0;
+    outline: 0;
+    background: #fff;
+    border-radius: 2rem;
+    padding: 3px;
+}
+
+
+/***********Content**********/
+
+.content {
+    width: 60vw;
+    margin-top: 3%;
+    height: 100vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.content .flight {
+    font-family: 'Raleway', sans-serif;
+    width: 100%;
+    height: 20%;
+    margin-top: 2%;
+    padding: 1%;
+    border-radius: 2rem;
+    background-color: white;
+    display: flex;
+}
+
+.left-info {
+    font-size: 1.5rem;
+    width: 70%;
+    height: 100%;
+    border-right: 1px solid #c7cfd6;
+}
+
+.right-info {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.from-location {
+    margin: 3%;
+}
+
+.to-location {
+    margin: 3%;
+}
+
+.line {
+    margin: 3%;
+}
+
+.locations {
+    width: 80%;
+    display: flex;
+}
+
+.content .flight .time {
+    margin-left: 20%;
+    font-size: 1rem;
+}
+
+.content .flight .seats {
+    display: flex;
+    text-align: center;
+    font-weight: 500;
+    color: black;
+    font-size: 0.7rem;
+}
+
+.persons {
+    display: flex;
+    width: 100%;
+    font-size: 1rem;
+    font-family: sans-serif;
+    font-weight: 200;
+    justify-content: right;
+}
+
+.btn {
+    background-color: #4CA5FF;
+    width: 50%;
+    height: 20%;
+    border: none;
+    color: white;
+    border-radius: 2rem;
+    font-family: 'Raleway', sans-serif;
+}
+
+.price {
+    font-size: 1.5rem;
+    font-family: sans-serif;
+    font-weight: 200;
+}
+
+.date {
+    font-family: 'Raleway', sans-serif;
+}
+
+.city-code {
+    font-size: 1rem;
+}
+
+#imgPer {
+    margin: 2%;
+}
+
+
+/**********/
